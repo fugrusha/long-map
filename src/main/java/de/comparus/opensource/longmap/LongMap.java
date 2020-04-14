@@ -14,4 +14,5 @@ public interface LongMap<V> {
 
     long size();
     void clear();
+    long getMaxMapSize();
 }
